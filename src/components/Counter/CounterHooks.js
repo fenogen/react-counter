@@ -1,10 +1,11 @@
+// -------------------------------------------- Counter через Hooks:
+
 import React, { useState } from "react";
 import classes from "./Counter.module.css";
 
 const Counter = ({title}) => {
   const [count, setCount] = useState(50);
   const [name, setName] = useState(title);
-  const [adress, setAdress] = useState('Kyiv');
   // setCount and setName - называются аналогично count and name, это ф-и, которые изменяют значения count and name
   // useState - это один из хуков
   

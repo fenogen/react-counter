@@ -1,14 +1,9 @@
 import React from "react";
-import Counter from "./components/Counter/Counter";
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
-import Section from "./components/Section/Section";
+import Counter from "./components/Counter/CounterHooks";
 
 const App = () => {
   return (
     <>
-      {/* <Header />
-      <Main /> */}
       <Counter number="10" title="hello" />
     </>
   );

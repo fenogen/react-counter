@@ -1,3 +1,5 @@
+// -------------------------------------------- Counter через Class:
+
 import React, { Component } from "react";
 import classes from "./Counter.module.css";
 
@@ -59,7 +61,6 @@ class Counter extends Component {
           <button onClick={this.reset}>0</button>
           <button onClick={this.plus}>+</button>
           {/* <button onClick={() => console.log('hi')}>0</button>         1 вариант (анонимная ф-я)*/}
-          {/* <button onClick={this.plus}>+</button>                       2 вариант */}
         </div>
       </div>
     );
