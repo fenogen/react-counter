@@ -4,7 +4,7 @@ import Counter from "./components/Counter/CounterHooks";
 const App = () => {
   return (
     <>
-      <Counter number="10" title="hello" />
+      <Counter number="10" title="React" />
     </>
   );
 };
